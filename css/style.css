@@ -1,0 +1,900 @@
+header p a{
+    color: orange;
+    text-decoration: none;
+}
+header p a:hover{
+    color: white;
+}
+header .style a{
+    text-decoration: none;
+}
+/*Brand Styles*/
+#brand div>a:hover{
+    color: black;
+}
+#brand div h1{
+    color: orange;
+}
+#brand .style input{
+    border: 1px solid #aaaaaa;
+}
+#brand .style i{
+    background-color: orange;
+    color: white;
+    padding: 13px;
+    border-radius: 4px;
+}
+#brand a{
+    color: black;
+    text-decoration: none;
+}
+#brand a h1{
+    color: orange; 
+}
+#brand form .input-group-text{
+    background-color: orange;
+    color: white;
+}
+nav{
+    background-color: orange;
+}
+/*Banner Styles*/
+#banner img{
+    width: 100%;
+    height: 450px;
+    opacity: 0.5;
+}
+#banner .div1{
+    position: relative;
+}
+#banner .div2{
+    position: absolute;
+    top:40%;
+    left:30%;
+    text-align: center;
+}
+/*Offer Styles*/
+#offer{
+    background-color: #f6f7f9;
+}
+#offer .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#offer .border{
+    border: 1px solid #aaaaaa;
+}
+#offer .nav-item a{
+    font-size: 20px;
+    color:black;
+    border-bottom: 1px solid white;
+}
+#offer .nav-item a.active{
+    background-color: orange;
+    border-radius: 0;
+    color: white;
+}
+#offer .row{
+    text-align: center;
+}
+#offer .row img{
+    width: 150px;
+    height: 150px;
+}
+#offer .row button{
+    border: none;
+}
+/*Brand Store Styles*/
+#brandstore{
+    background-color: blanchedalmond;
+}
+#brandstore .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#brandstore button{
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+/*Footer Styles*/
+footer .footer-body{
+    background-color: black;
+}
+footer .footer-body i{
+    color: orange;
+}
+footer .footer-body .icon i{
+    border: 1px solid orange;
+}
+footer .footer-body p{
+    color: #aaaaaa;
+}
+footer .footer-body span{
+    color: orange;
+}
+footer .footer-footer{
+    background-color: #141414;
+}
+footer .footer-footer .div1 i{
+    border-radius: 50%;
+    color: white;
+    border: 2px solid white;
+}
+footer .footer-footer .div2 i:first-child{
+    background-color: white;
+    color: orange;
+    font-size: 30px;
+}
+footer .footer-footer .div2 i:nth-child(2){
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}
+footer .footer-footer .div2 i:nth-child(3){
+    background-color: white;
+    color: blue;
+    font-size: 30px;
+}
+footer .footer-footer .div2 i:nth-child(4){
+    background-color: white;
+    color: skyblue;
+    font-size: 30px;
+}
+footer .footer-footer .div2 .icons{
+    float: right;
+}
+/*VEGETABLES PAGE STYLES*/
+/*Vegetables Styles*/
+#veg{
+    background-color: #f6f7f9;
+}
+#veg .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#veg .border{
+    border: 1px solid #aaaaaa;
+}
+#veg .row{
+    text-align: center;
+}
+#veg .row img{
+    width: 150px;
+    height: 150px;
+}
+#veg .row button{
+    border: none;
+}
+/*Prices Styles*/
+#prices .row .col-lg-7 img{
+    width: 100%;
+    height: 550px;
+}
+#prices .row .col-md-6 img{
+    width: 80%;
+    height: 120px;
+}
+#prices .row .col-md-6 p:first-child{
+    color: rgb(211, 46, 46);
+    text-align: right;
+}
+#prices .row .col-md-6 p:nth-child(2){
+    color: green;
+    text-align: right;
+}
+#prices .row .col-md-6 p:nth-child(3){
+    color: #aaaaaa;
+    text-align: right;
+}
+/*MEAT PAGE STYLES*/
+/*Meat Styles*/
+#meat{
+    background-color: #f6f7f9;
+}
+#meat .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#meat .border{
+    border: 1px solid #aaaaaa;
+}
+#meat .row{
+    text-align: center;
+}
+#meat .row img{
+    width: 150px;
+    height: 150px;
+}
+#meat .row button{
+    border: none;
+}
+/*Snack Styles*/
+#snack{
+    background-color: #f6f7f9;
+}
+#snack .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#snack .border{
+    border: 1px solid #aaaaaa;
+}
+#snack .row{
+    text-align: center;
+}
+#snack .row img{
+    width: 150px;
+    height: 150px;
+}
+#snack .row button{
+    border: none;
+}
+/*Fastfood Styles*/
+#fastfood{
+    background-color: #f6f7f9;
+}
+#fastfood .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#fastfood .border{
+    border: 1px solid #aaaaaa;
+}
+#fastfood .row{
+    text-align: center;
+}
+#fastfood .row img{
+    width: 150px;
+    height: 150px;
+}
+#fastfood .row button{
+    border: none;
+}
+/*Blanket Styles*/
+#blanket{
+    background-color: #f6f7f9;
+}
+#blanket .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#blanket .border{
+    border: 1px solid #aaaaaa;
+}
+#blanket .row{
+    text-align: center;
+}
+#blanket .row img{
+    width: 150px;
+    height: 150px;
+}
+#blanket .row button{
+    border: none;
+}
+/*Home Appliance Styles*/
+#homeappliance{
+    background-color: #f6f7f9;
+}
+#homeappliance .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#homeappliance .border{
+    border: 1px solid #aaaaaa;
+}
+#homeappliance .row{
+    text-align: center;
+}
+#homeappliance .row img{
+    width: 150px;
+    height: 150px;
+}
+#homeappliance .row button{
+    border: none;
+}
+/*Broom Styles*/
+#broom{
+    background-color: #f6f7f9;
+}
+#broom .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#broom .border{
+    border: 1px solid #aaaaaa;
+}
+#broom .row{
+    text-align: center;
+}
+#broom .row img{
+    width: 150px;
+    height: 150px;
+}
+#broom .row button{
+    border: none;
+}
+/*Kitchen Styles*/
+#kitchen{
+    background-color: #f6f7f9;
+}
+#kitchen .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#kitchen .border{
+    border: 1px solid #aaaaaa;
+}
+#kitchen .row{
+    text-align: center;
+}
+#kitchen .row img{
+    width: 150px;
+    height: 150px;
+}
+#kitchen .row button{
+    border: none;
+}
+/*Perfume Styles*/
+#perfume{
+    background-color: #f6f7f9;
+}
+#perfume .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#perfume .border{
+    border: 1px solid #aaaaaa;
+}
+#perfume .row{
+    text-align: center;
+}
+#perfume .row img{
+    width: 150px;
+    height: 150px;
+}
+#perfume .row button{
+    border: none;
+}
+/*Shampoos Styles*/
+#shampoos{
+    background-color: #f6f7f9;
+}
+#shampoos .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#shampoos .border{
+    border: 1px solid #aaaaaa;
+}
+#shampoos .row{
+    text-align: center;
+}
+#shampoos .row img{
+    width: 150px;
+    height: 150px;
+}
+#shampoos .row button{
+    border: none;
+}
+/*Toothpaste Styles*/
+#toothpaste{
+    background-color: #f6f7f9;
+}
+#toothpaste .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#toothpaste .border{
+    border: 1px solid #aaaaaa;
+}
+#toothpaste .row{
+    text-align: center;
+}
+#toothpaste .row img{
+    width: 150px;
+    height: 150px;
+}
+#toothpaste .row button{
+    border: none;
+}
+/*Soaps Styles*/
+#soaps{
+    background-color: #f6f7f9;
+}
+#soaps .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#soaps .border{
+    border: 1px solid #aaaaaa;
+}
+#soaps .row{
+    text-align: center;
+}
+#soaps .row img{
+    width: 150px;
+    height: 150px;
+}
+#soaps .row button{
+    border: none;
+}
+/*Moisturizer Styles*/
+#moisturizer{
+    background-color: #f6f7f9;
+}
+#moisturizer .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#moisturizer .border{
+    border: 1px solid #aaaaaa;
+}
+#moisturizer .row{
+    text-align: center;
+}
+#moisturizer .row img{
+    width: 150px;
+    height: 150px;
+}
+#moisturizer .row button{
+    border: none;
+}
+/*Pasta Styles*/
+#pasta{
+    background-color: #f6f7f9;
+}
+#pasta .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#pasta .border{
+    border: 1px solid #aaaaaa;
+}
+#pasta .row{
+    text-align: center;
+}
+#pasta .row img{
+    width: 150px;
+    height: 150px;
+}
+#pasta .row button{
+    border: none;
+}
+/*Noodles Styles*/
+#noodles{
+    background-color: #f6f7f9;
+}
+#noodles .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#noodles .border{
+    border: 1px solid #aaaaaa;
+}
+#noodles .row{
+    text-align: center;
+}
+#noodles .row img{
+    width: 150px;
+    height: 150px;
+}
+#noodles .row button{
+    border: none;
+}
+/*Gulab Jamun Styles*/
+#gulabjamun{
+    background-color: #f6f7f9;
+}
+#gulabjamun .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#gulabjamun .border{
+    border: 1px solid #aaaaaa;
+}
+#gulabjamun .row{
+    text-align: center;
+}
+#gulabjamun .row img{
+    width: 150px;
+    height: 150px;
+}
+#gulabjamun .row button{
+    border: none;
+}
+/*Jam Styles*/
+#jam{
+    background-color: #f6f7f9;
+}
+#jam .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#jam .border{
+    border: 1px solid #aaaaaa;
+}
+#jam .row{
+    text-align: center;
+}
+#jam .row img{
+    width: 150px;
+    height: 150px;
+}
+#jam .row button{
+    border: none;
+}
+/*Juice Styles*/
+#juice{
+    background-color: #f6f7f9;
+}
+#juice .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#juice .border{
+    border: 1px solid #aaaaaa;
+}
+#juice .row{
+    text-align: center;
+}
+#juice .row img{
+    width: 150px;
+    height: 150px;
+}
+#juice .row button{
+    border: none;
+}
+/*Coffee Styles*/
+#coffee{
+    background-color: #f6f7f9;
+}
+#coffee .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#coffee .border{
+    border: 1px solid #aaaaaa;
+}
+#coffee .row{
+    text-align: center;
+}
+#coffee .row img{
+    width: 150px;
+    height: 150px;
+}
+#coffee .row button{
+    border: none;
+}
+/*Milkshake Styles*/
+#milkshake{
+    background-color: #f6f7f9;
+}
+#milkshake .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#milkshake .border{
+    border: 1px solid #aaaaaa;
+}
+#milkshake .row{
+    text-align: center;
+}
+#milkshake .row img{
+    width: 150px;
+    height: 150px;
+}
+#milkshake .row button{
+    border: none;
+}
+/*Water Bottle Styles*/
+#water{
+    background-color: #f6f7f9;
+}
+#water .title p::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: blue;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#water .border{
+    border: 1px solid #aaaaaa;
+}
+#water .row{
+    text-align: center;
+}
+#water .row img{
+    width: 150px;
+    height: 150px;
+}
+#water .row button{
+    border: none;
+}
+/*Gourmet Styles*/
+#gourmet .title .h1::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: orange;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#gourmet img{
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+/*Offers Styles*/
+#offers .title .h1::after{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background: orange;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#offers img{
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+/*Contact Styles*/
+#contact h1{
+    color: rgb(5, 5, 126);
+}
+#contact img{
+    width: 1100%;
+    height: 350px;
+}
+#contact i{
+    background-color: rgb(66, 48, 167);
+    border-radius: 5px;
+    font-size: 20px;
+}
+/*Media Quaries*/
+@media (max-width:600px){
+    header div p{
+        font-size: 10px;
+        width: 100%;
+    }
+    header div .style{
+        font-size: 10px;
+    }
+    header div .style a{
+        padding-right: 10px;
+    }
+    header div i{
+        font-size: 10px;
+    }
+    #brand div p{
+        font-size: 8px;
+    }
+    #brand div h1{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    #brand div .style{
+        font-size: 8px;
+    }
+    #brand div .style input{
+        margin-right: 2px;
+    }
+    #banner .div2 p{
+        font-size: 20px;
+    }
+}
+@media (min-width:601px) and (max-width:800px){
+    header div p{
+        font-size: 11px;
+        width: 100%;
+    }
+    header div .style{
+        font-size: 11px;
+    }
+    header div .style a{
+        padding-right: 11px;
+    }
+    header div i{
+        font-size: 11px;
+    }
+    #brand div p{
+        font-size: 10px;
+    }
+    #brand div h1{
+        font-size: 20px;
+        padding-top: 8px;
+    }
+    #brand div .style{
+        font-size: 8px;
+    }
+}
+@media (min-width:801px) and (max-width:1000px){
+    header div p{
+        font-size: 13px;
+        width: 100%;
+    }
+    header div .style{
+        font-size: 13px;
+    }
+    header div .style a{
+        padding-right: 13px;
+    }
+    header div i{
+        font-size: 13px;
+    }
+    #brand div p{
+        font-size: 12px;
+    }
+    #brand div h1{
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    #brand div .style{
+        font-size: 12px;
+    }
+}
